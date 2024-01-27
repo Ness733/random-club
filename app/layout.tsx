@@ -4,6 +4,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import Link from "next/link";
 import Logo from "../public/assets/logo vector.webp";
+import { Footer } from "./footer";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -20,7 +21,7 @@ export default function RootLayout({
 	return (
 		<html lang="en">
 			<body className={inter.className}>
-				<main className="flex min-h-screen flex-col items-center">
+				<main className="flex min-h-screen flex-col items-center mb-0 custombg md:pb-20">
 					<div className="w-full bg-black h-fit flex items-center justify-center">
 						<img
 							src={Logo.src}
@@ -44,6 +45,7 @@ export default function RootLayout({
 					</nav>
 					{children}
 				</main>
+				<Footer />
 			</body>
 		</html>
 	);
