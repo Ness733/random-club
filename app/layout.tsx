@@ -80,6 +80,12 @@ export default function RootLayout({
 							<li>
 								<Link href="/burritos">Burritos</Link>
 							</li>
+							<li>
+								<Link href="/sandwiches">Sandwiches</Link>
+							</li>
+							<li>
+								<Link href="/guarnciones">Guarniciones</Link>
+							</li>
 						</ul>
 					</nav>
 					{children}
