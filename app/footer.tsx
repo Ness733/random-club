@@ -2,17 +2,13 @@ export function Footer() {
 	return (
 		<footer className="p-5 h-fit bg-black text-white">
 			<div className="flex flex-col justify-left items-left pb-5 xl:pb-10 items-center">
-				<h1 className="text-2xl xl:text-3xl pb-5">
-					Información de Contacto
-				</h1>
-				<p className="text-xl">WhatsApp: +51 999 999 999</p>
-				<p className="text-xl">Email: email@randomclub.com</p>
+				<h1 className="text-2xl xl:text-3xl pb-5">Sociales</h1>
 				<a
 					href="https://www.instagram.com/randomclub_sf/"
 					target="_blank"
 				>
 					<svg
-						className="w-10 h-10 mt-5 2xl:mt-10 xl:mt-5 place-self-center 2xl:w-20 2xl:h-20 xl:w-15 xl:h-15"
+						className="w-20 h-20 2xl:mt-10 xl:mt-5 place-self-center 2xl:w-20 2xl:h-20 xl:w-15 xl:h-15"
 						xmlns="http://www.w3.org/2000/svg"
 						x="0px"
 						y="0px"
