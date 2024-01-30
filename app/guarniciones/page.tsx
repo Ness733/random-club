@@ -2,7 +2,7 @@ import MapItems from "../mapItems";
 import { useProduct } from "../services/useProduct";
 
 export default async function Guarniciones() {
-	const sideList = await useProduct("side");
+	const sideList = await useProduct("sides");
 
 	return (
 		<main className="w-full justify-center items-center">

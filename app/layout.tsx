@@ -69,7 +69,7 @@ export default function RootLayout({
 							className="p-5 2xl:p-10 2xl:w-1/6"
 						/>
 					</div>
-					<nav className="w-full h-fit justify-center bg-red-600 text-white">
+					<nav className="w-full h-fit overflow-auto justify-center bg-red-600 text-white">
 						<ul className="flex gap-5 p-5 font-bold text-xl place-content-center">
 							<li>
 								<Link href="/">Inicio</Link>
@@ -84,7 +84,7 @@ export default function RootLayout({
 								<Link href="/sandwiches">Sandwiches</Link>
 							</li>
 							<li>
-								<Link href="/guarnciones">Guarniciones</Link>
+								<Link href="/guarniciones">Guarniciones</Link>
 							</li>
 						</ul>
 					</nav>
