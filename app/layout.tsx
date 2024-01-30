@@ -12,6 +12,9 @@ export const metadata: Metadata = {
 	title: "Random Club",
 	viewport: "width=device-width, initial-scale=1",
 	description: "Delivery en Santa Fe, Capital",
+	openGraph: {
+		images: "https://res.cloudinary.com/dzbu8lu05/image/upload/v1706637781/n4dpcsvc1fmskhva4ymc.png",
+	},
 };
 
 export default function RootLayout({
