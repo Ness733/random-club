@@ -6,13 +6,10 @@ export default function Home() {
 			</h1>
 			<section className="flex flex-col justify-center items-center">
 				<div className="w-fit m-5 lg:w-1/2">
-					<p className="font-bold rounded-3xl p-5 text-xl 2xl:p-10 bg-white 2xl:m-10">
-						Lorem ipsum dolor sit amet consectetur, adipisicing
-						elit. Facilis illum a odio harum dignissimos autem quia.
-						Optio porro unde ratione earum voluptatum nulla omnis,
-						reprehenderit saepe necessitatibus adipisci quod minus
-						aspernatur ea. Praesentium quidem corporis nam autem
-						veritatis, similique iure?
+					<p className="font-bold text-center text-pretty rounded-3xl p-5 text-xl 2xl:p-10 bg-white 2xl:m-10">
+						En esta sección podrás leer información sobre la
+						preparación de nuestros productos. Mientras tanto, podés
+						revisar nuestro menú en sus diferentes categorías.
 					</p>
 				</div>
 			</section>

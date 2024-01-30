@@ -26,7 +26,7 @@ const MapItems: React.FC<MapItemsProps> = ({ list }) => {
 					<h2 className="bg-white rounded-xl p-5 xl:hidden text-center font-bold text-5xl xl:mb-5">
 						{item.name}
 					</h2>
-					<div className="2xl:w-[550px] flex xl:w-[500px] bg-white">
+					<div className="2xl:w-[550px] flex xl:w-[500px] bg-white xl:bg-transparent">
 						<img
 							width={500}
 							className="my-5 xl:m-0 xl:relative h-fit z-20 "
