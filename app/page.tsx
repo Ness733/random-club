@@ -23,6 +23,7 @@ export default function Home() {
 							<a
 								className="text-red-500 hover:text-red-700 visited:text-red-500"
 								href="https://www.pedidosya.com.ar/restaurantes/santa-fe/random-club-9d904b8d-9c58-4510-af01-ecb0963b95c0-menu"
+								target="_blank"
 							>
 								acá
 							</a>
