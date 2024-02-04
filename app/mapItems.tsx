@@ -26,15 +26,15 @@ const MapItems: React.FC<MapItemsProps> = ({ list }) => {
 					<h2 className="bg-white rounded-t-3xl p-5 xl:hidden text-center font-bold text-5xl xl:mb-5">
 						{item.name}
 					</h2>
-					<div className="2xl:w-[550px] flex xl:w-[500px] bg-gradient-to-b from-white to-red-500 xl:from-white xl:to-white">
+					<div className="2xl:w-[550px] flex xl:w-[500px] bg-gradient-to-b from-white to-red-500 xl:from-transparent xl:to-transparent">
 						<img
-							width={500}
+							width={400}
 							className="my-5 xl:m-0 xl:relative h-fit z-20"
 							src={item.image}
 							alt="small burger image"
 						/>
 						<svg
-							className="hidden xl:absolute xl:hidden xl:m-0 2xl:w-[800px] xl:w-[700px] z-10 2xl:-translate-x-[110px] 2xl:translate-y-[-180px]
+							className="hidden xl:absolute 2xl:h-full xl:hidden xl:m-0 2xl:w-[750px] xl:w-[700px] z-10 2xl:-translate-x-[21%] 2xl:translate-y-[-80px]
               xl:-translate-x-[60px] xl:translate-y-[-140px]"
 							viewBox="0 0 1000 1000"
 							xmlns="http://www.w3.org/2000/svg"
