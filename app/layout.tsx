@@ -55,7 +55,7 @@ export default function RootLayout({
 					</nav>
 					{children}
 				</main>
-				<div className="fixed bottom-[65px] right-0 z-30">
+				<div className="fixed bottom-[55px] right-0 z-30">
 					<a
 						className="xl:bottom-10 xl:right-10 flex items-center justify-center p-4"
 						href="https://wa.me/543425277458"
@@ -65,8 +65,8 @@ export default function RootLayout({
 							xmlns="http://www.w3.org/2000/svg"
 							x="0px"
 							y="0px"
-							width="100"
-							height="100"
+							width="70"
+							height="70"
 							viewBox="0 0 48 48"
 						>
 							<path

@@ -15,21 +15,21 @@ interface MapItemsProps {
 
 const MapItems: React.FC<MapItemsProps> = ({ list }) => {
 	return (
-		<div>
+		<div className="my-10 flex flex-col gap-5 justify-center items-center">
 			{list.map((item) => (
 				<div
-					className="p-5 my-0 xl:h-[550px] xl:my-10 w-full xl:flex justify-center items-center 2xl:gap-20 xl:gap-10 even:xl:flex-row-reverse
+					className="mt-10 xl:h-[550px] xl:my-10 mx-5 xl:flex justify-center items-center 2xl:gap-24 even:xl:flex-row-reverse
           odd:xl:flex-row xl:bg-white 2xl:w-fit xl:w-fit rounded-3xl even:xl:-rotate-1 odd:xl:rotate-1
-          even:xl:px-10 odd:2xl:pl-20 odd:2xl:pt-0 odd:xl:px-5 even:2xl:p-10 odd:xl:gap-20 shadow-xl"
+          even:xl:px-10 odd:2xl:pl-20 odd:2xl:pt-0 odd:xl:px-5 even:2xl:p-10 odd:xl:gap-20 shadow-xl border xl:border-2 border-black"
 					key={item.id}
 				>
-					<h2 className="bg-white rounded-t-xl p-5 xl:hidden text-center font-bold text-5xl xl:mb-5">
+					<h2 className="bg-white rounded-t-3xl p-5 xl:hidden text-center font-bold text-5xl xl:mb-5">
 						{item.name}
 					</h2>
-					<div className="2xl:w-[550px] flex xl:w-[500px] bg-white xl:bg-transparent">
+					<div className="2xl:w-[550px] flex xl:w-[500px] bg-gradient-to-b from-white to-red-500 xl:from-white xl:to-white">
 						<img
 							width={500}
-							className="my-5 xl:m-0 xl:relative h-fit z-20 "
+							className="my-5 xl:m-0 xl:relative h-fit z-20"
 							src={item.image}
 							alt="small burger image"
 						/>
@@ -55,7 +55,7 @@ const MapItems: React.FC<MapItemsProps> = ({ list }) => {
 							</g>
 						</svg>
 					</div>
-					<div className="xl:w-[650px] h-[250px] flex flex-col xl:items-start">
+					<div className="xl:w-[650px] h-fit flex flex-col xl:items-start">
 						<h2 className="xl:mb-5 xl:inline-flex hidden text-center font-bold text-5xl">
 							{item.name}
 						</h2>
