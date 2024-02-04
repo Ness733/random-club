@@ -20,10 +20,10 @@ const MapItems: React.FC<MapItemsProps> = ({ list }) => {
 				<div
 					className="p-5 my-0 xl:h-[550px] xl:my-10 w-full xl:flex justify-center items-center 2xl:gap-20 xl:gap-10 even:xl:flex-row-reverse
           odd:xl:flex-row xl:bg-white 2xl:w-fit xl:w-fit rounded-3xl even:xl:-rotate-1 odd:xl:rotate-1
-          even:xl:px-10 odd:2xl:pl-20 odd:2xl:pt-0 odd:xl:px-5 even:2xl:p-10 odd:xl:gap-20"
+          even:xl:px-10 odd:2xl:pl-20 odd:2xl:pt-0 odd:xl:px-5 even:2xl:p-10 odd:xl:gap-20 shadow-xl"
 					key={item.id}
 				>
-					<h2 className="bg-white rounded-xl p-5 xl:hidden text-center font-bold text-5xl xl:mb-5">
+					<h2 className="bg-white rounded-t-xl p-5 xl:hidden text-center font-bold text-5xl xl:mb-5">
 						{item.name}
 					</h2>
 					<div className="2xl:w-[550px] flex xl:w-[500px] bg-white xl:bg-transparent">
