@@ -25,7 +25,7 @@ export default function RootLayout({
 	return (
 		<html lang="en">
 			<body className={inter.className}>
-				<main className="flex relative flex-col items-center mb-0 custombg 2xl:pb-20">
+				<main className="flex relative flex-col items-center mb-0 2xl:pb-20 custombg-blocks">
 					<div className="w-full bg-black h-fit flex items-center justify-center">
 						<img
 							src={Logo.src}

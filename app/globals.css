@@ -45,4 +45,15 @@ body {
 			#e5e5f7 50%
 		);
 	}
+
+	.custombg-blocks {
+		background-image: url("../public/assets/fondo cubos.webp");
+		background-size: cover;
+	}
+
+	.custombg-wave {
+		background-image: url("../public/assets/wave-haikei.png");
+		background-size: cover;
+		background-position: bottom;
+	}
 }

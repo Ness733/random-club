@@ -5,7 +5,7 @@ export default async function Hamburguesas() {
 	const burgerList = await useProduct("burgers");
 
 	return (
-		<main className="w-full justify-center items-center">
+		<main className="w-full">
 			<h1 className="p-5 text-center font-bold text-3xl w-full bg-black text-white">
 				Hamburguesas
 			</h1>

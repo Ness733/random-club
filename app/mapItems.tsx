@@ -20,13 +20,13 @@ const MapItems: React.FC<MapItemsProps> = ({ list }) => {
 				<div
 					className="mt-10 xl:h-[550px] xl:my-10 mx-5 xl:flex justify-center items-center 2xl:gap-24 even:xl:flex-row-reverse
           odd:xl:flex-row xl:bg-white 2xl:w-fit xl:w-fit rounded-3xl even:xl:-rotate-1 odd:xl:rotate-1
-          even:xl:px-10 odd:2xl:pl-20 odd:2xl:pt-0 odd:xl:px-5 even:2xl:p-10 odd:xl:gap-20 shadow-xl border xl:border-2 border-black"
+          even:xl:px-10 odd:2xl:pl-20 odd:2xl:pt-0 odd:xl:px-5 even:2xl:p-10 odd:xl:gap-20 shadow-2xl shadow-black border xl:border-2 border-black custombg-wave"
 					key={item.id}
 				>
-					<h2 className="bg-white rounded-t-3xl p-5 xl:hidden text-center font-bold text-5xl xl:mb-5">
+					<h2 className="bg-transparent rounded-t-3xl p-5 xl:hidden text-center font-bold text-5xl xl:mb-5 text-white">
 						{item.name}
 					</h2>
-					<div className="2xl:w-[550px] flex xl:w-[500px] bg-gradient-to-b from-white to-red-500 xl:from-transparent xl:to-transparent">
+					<div className="2xl:w-[550px] flex xl:w-[500px] bg-gradient-to-b from-transparent to-transparent xl:from-transparent xl:to-transparent">
 						<img
 							width={400}
 							className="my-5 xl:m-0 xl:relative h-fit z-20"
@@ -56,10 +56,10 @@ const MapItems: React.FC<MapItemsProps> = ({ list }) => {
 						</svg>
 					</div>
 					<div className="xl:w-[650px] h-fit flex flex-col xl:items-start">
-						<h2 className="xl:mb-5 xl:inline-flex hidden text-center font-bold text-5xl">
+						<h2 className="xl:mb-5 xl:inline-flex hidden text-center font-bold text-5xl text-white">
 							{item.name}
 						</h2>
-						<p className="p-10 font-bold text-xl bg-red-500 text-white rounded-b-3xl xl:rounded-3xl text-center text-pretty xl:w-[600px]">
+						<p className="p-10 font-bold text-xl bg-transparent text-white rounded-b-3xl xl:rounded-3xl text-center text-pretty xl:w-[600px]">
 							{item.description}
 						</p>
 					</div>
