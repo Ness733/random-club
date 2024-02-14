@@ -26,7 +26,7 @@ const MapItems: React.FC<MapItemsProps> = ({ list }) => {
 					<h2 className="bg-transparent rounded-t-3xl p-5 xl:hidden text-center font-bold text-5xl xl:mb-5 text-white">
 						{item.name}
 					</h2>
-					<div className="2xl:w-[550px] flex xl:w-[500px] bg-gradient-to-b from-transparent to-transparent xl:from-transparent xl:to-transparent">
+					<div className="2xl:w-[550px] flex xl:w-[500px] bg-gradient-to-b from-transparent to-transparent xl:from-transparent xl:to-transparent sm:justify-center">
 						<img
 							width={400}
 							className="my-5 xl:m-0 xl:relative h-fit z-20"
