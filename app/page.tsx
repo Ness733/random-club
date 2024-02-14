@@ -6,7 +6,7 @@ export default function Home() {
 			</h1>
 			<section className="flex flex-col justify-center items-center">
 				<div className="w-fit m-5 lg:w-1/2">
-					<div className="font-bold text-center text-pretty rounded-3xl p-5 text-xl 2xl:p-10 bg-white 2xl:m-10">
+					<div className="font-bold text-center text-pretty rounded-3xl p-5 text-xl 2xl:p-10 bg-white text-black 2xl:m-10">
 						<h1 className="my-5">¡Bienvenido a Random Club! </h1>
 						<p className="">
 							En esta sección pronto podrás leer información sobre
