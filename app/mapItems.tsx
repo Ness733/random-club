@@ -29,7 +29,7 @@ const MapItems: React.FC<MapItemsProps> = ({ list }) => {
 					<div className="2xl:w-[550px] flex xl:w-[500px] bg-gradient-to-b from-transparent to-transparent xl:from-transparent xl:to-transparent sm:justify-center">
 						<img
 							width={400}
-							className="my-5 xl:m-0 xl:relative h-fit z-20"
+							className="my-1 mb-0 px-4 xl:m-0 xl:relative h-fit z-20"
 							src={item.image}
 							alt="small burger image"
 						/>
@@ -59,7 +59,7 @@ const MapItems: React.FC<MapItemsProps> = ({ list }) => {
 						<h2 className="xl:mb-5 xl:inline-flex hidden text-center font-bold text-5xl text-white">
 							{item.name}
 						</h2>
-						<p className="p-10 font-bold text-xl bg-transparent text-white rounded-b-3xl xl:rounded-3xl text-center text-pretty xl:w-[600px]">
+						<p className="p-7 font-bold text-xl bg-transparent text-white rounded-b-3xl xl:rounded-3xl text-center text-pretty xl:w-[600px]">
 							{item.description}
 						</p>
 					</div>
